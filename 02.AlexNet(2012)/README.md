@@ -103,3 +103,9 @@ JK : 그리고 feature extractor 부분에서도 cross 되는부분이 있어서
 JK : 아 당시 GPU메모리가 딸려서 하나의 GPU로 못하니 두개의 GPU를 써서 두 네트워크를 크로스한건가봅니다. 그럼 현재 실제 구현을 할때 굳이 저 논문 그림대로 할 필요는 없네요??
 B : 네 저 그림대로 할 필요 없구요 구조를 동일하게 가져가고싶으시면 레이어를 병렬배치하시면 됩니다.
 JK : 감사합니다 ㅎ
+
+- kernels in layer 4 take input only from those kernel maps in layer 3 which reside on the same GPU.
+- Layer 4의 커널은 동일한 GPU에 존재하는 계층 3의 커널 맵에서만 입력을 받습니다.
+
+- Choosing the pattern of connectivity is a problem for cross-validation, but this allows us to precisely tune the amount of communication until it is an acceptable fraction of the amount of computation.
+- 연결 패턴을 선택하는 것은 교차 검증의 문제이지만, 이것은 우리가 그것이 계산량의 허용 가능한 부분이 될 때까지 통신량을 정밀하게 조정할 수 있게 해준다.
