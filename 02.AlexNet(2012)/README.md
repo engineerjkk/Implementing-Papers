@@ -75,3 +75,31 @@ Dropout
 3. https://medium.com/geekculture/a-2021-guide-to-improving-cnns-network-architectures-historical-network-architectures-d23f32afb1bd
 4. https://github.com/toxtli/alexnet-cifar-10-keras-jupyter/blob/master/alexnet_test4.ipynb
 5. https://kratzert.github.io/2017/06/15/example-of-tensorflows-new-input-pipeline.htmlb
+
+      In the end, the network’s size is limited mainly by the amount of memory available on current GPUs and by the amount of training time that we are willing to tolerate. 
+      Our network takes between five and six days to train on two GTX 580 3GB GPUs. 
+      All of our experiments suggest that our results can be improved simply by waiting for faster GPUs and bigger datasets to become available.
+
+
+      결국, 네트워크의 크기는 주로 현재 GPU에서 사용할 수 있는 메모리의 양과 우리가 허용하고자 하는 훈련 시간의 양에 의해 제한된다.
+      우리의 네트워크는 두 개의 GTX 580 3GB GPU로 훈련하는 데 5~6일이 걸린다.
+      우리의 모든 실험은 GPU와 더 큰 데이터셋을 사용할 수 있기를 기다리는 것만으로도 결과를 개선할 수 있음을 시사한다.
+      
+# 대화
+JK : AlexNet 구현중인데요. 실제 논문은 첫번째 그림과 같은데 다들 이렇게 2 Level로 하는것을 생략하고 아래와 같이 하더라구요 혹시 논문 정석대로 구현한 설명이나 코드를 보고싶은데 혹시 아시는분 계신가요???  
+C : 저거 두개 쪼갠건 vram 딸려서 그런거 아님?
+JK : 그렇다고보기엔 모든 구현이 다그렇더라구요 그리고 논문구현은 2012년때 GTX580으로 구현한건데 지금은 더 넉넉하게 가능하지않나요?
+A : 요게 사실 지금 같으면 모델 하나를 gpu 두개에 올리면 되는데 당시엔 그렇지를 못했던 것으로 기억해요. 그래서 그냥 모델을 두개로 쪼개서 각각 다른 gpu에 옿렸던 것으로 기억하는데 자세한 건 논문으로....
+JK : 위에 분이 말씀하신 vram 딸려서라는 말도 관계가 있나요? 
+A : 저도 정확히 기억나는 내용은 아니라 조십스러운데 동일한 맥락일겁니다. 저게 사실 걍 채널 수 2배 한거랑 차이점이 많지 않자나여.
+B : vram이 부족해서 model parallelism을 도입한 게 맞습니다. 하지만 2 x #channels와 동치는 되지 않구요.
+A : 네 완전 동치는 아니져
+B : alexnet 논문에서 언급하듯 각  gpu에서 서로다른 feature를 학습했구요(형태 /색상), 단순히 channel만 합친 대다수의 구현에서는 논문에 report된 성능을 재현하지 못했습니다.
+5~6년 전쯤에 theano로 구조만 동일하게(model parallelism없이 구현해서 gpu에서 레이어만 병렬로 분리) 실험했었는데 그때도 논문 성능 재현은 안되었구요.
+논문처럼 형태/색상 filter가 나눠지지도 않아서 굉장한 우연의 산물로 생각했던 적이 있습니다.
+JK : 그런데 feature만 따로 학습은 하지만 다시 classifier부분에서 만나는데 하나의 GPU로는 안되나보죠?
+B : gpu나눠서 구현해보시면 그것도 흥미로운 결과가 될 것 같네요. 하나의 gpu로도 구현 가능합니다.
+JK : 그리고 feature extractor 부분에서도 cross 되는부분이 있어서요.
+JK : 아 당시 GPU메모리가 딸려서 하나의 GPU로 못하니 두개의 GPU를 써서 두 네트워크를 크로스한건가봅니다. 그럼 현재 실제 구현을 할때 굳이 저 논문 그림대로 할 필요는 없네요??
+B : 네 저 그림대로 할 필요 없구요 구조를 동일하게 가져가고싶으시면 레이어를 병렬배치하시면 됩니다.
+JK : 감사합니다 ㅎ
