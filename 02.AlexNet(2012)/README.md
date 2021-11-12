@@ -109,3 +109,7 @@ JK : 감사합니다 ㅎ
 
 - Choosing the pattern of connectivity is a problem for cross-validation, but this allows us to precisely tune the amount of communication until it is an acceptable fraction of the amount of computation.
 - 연결 패턴을 선택하는 것은 교차 검증의 문제이지만, 이것은 우리가 그것이 계산량의 허용 가능한 부분이 될 때까지 통신량을 정밀하게 조정할 수 있게 해준다.
+
+![image](https://user-images.githubusercontent.com/76835313/141471670-cb1b581e-666d-49f6-bab1-f2b91f4394e8.png)
+
+### 즉, Multi GPUs 로 넘어가기 때문에 이번 연구 범주를 넘게됩니다. 따라서 현 시점에서는 하나의 GPU로도 가능하기때문에 2 Level로 나누지 않고 하나의 Level로도 충분히 AlexNet 구현이 가능하기 때문에 이부분이 실제 논문과 차이가 있는점 미리 말씀드립ㄴ디ㅏ.
