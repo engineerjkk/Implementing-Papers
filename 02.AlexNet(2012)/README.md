@@ -68,3 +68,10 @@ Dropout
 
 ![image](https://user-images.githubusercontent.com/76835313/141453903-7ca8d8ab-7dcb-4881-b3e7-d5656001a3b3.png)
 ![image](https://user-images.githubusercontent.com/76835313/141453926-6ed8e7a7-cd71-4392-8386-11f23d84ec89.png)
+
+# Link
+1. https://medium.com/@smallfishbigsea/a-walk-through-of-alexnet-6cbd137a5637
+2. https://www.mydatahack.com/building-alexnet-with-keras/
+3. https://medium.com/geekculture/a-2021-guide-to-improving-cnns-network-architectures-historical-network-architectures-d23f32afb1bd
+4. https://github.com/toxtli/alexnet-cifar-10-keras-jupyter/blob/master/alexnet_test4.ipynb
+5. https://kratzert.github.io/2017/06/15/example-of-tensorflows-new-input-pipeline.htmlb
