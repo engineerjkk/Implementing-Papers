@@ -64,3 +64,7 @@ Dropout
 Bias with constant value of 1  
 Dropout  
 9. Fully Connected Layer (1000)  
+
+
+![image](https://user-images.githubusercontent.com/76835313/141453903-7ca8d8ab-7dcb-4881-b3e7-d5656001a3b3.png)
+![image](https://user-images.githubusercontent.com/76835313/141453926-6ed8e7a7-cd71-4392-8386-11f23d84ec89.png)
