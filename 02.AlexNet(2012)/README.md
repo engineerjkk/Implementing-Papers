@@ -77,6 +77,7 @@ Dropout
 5. https://kratzert.github.io/2017/06/15/example-of-tensorflows-new-input-pipeline.htmlb
 6. https://colab.research.google.com/drive/1LftAExC3XGgcHkhIHQQ6aGWrlxkZv-1x?usp=sharing#scrollTo=abtguzXDbom7  
 7. [AlexNet article](https://analyticsindiamag.com/hands-on-guide-to-implementing-alexnet-with-keras-for-multi-class-image-classification/)
+8. [AlexNetGithub](https://github.com/pravinkr/alexnet-cifar10-using-keras/blob/master/cifar_10_with_Alexnet.ipynb)
 
 
       In the end, the network’s size is limited mainly by the amount of memory available on current GPUs and by the amount of training time that we are willing to tolerate.
