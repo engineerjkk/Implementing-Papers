@@ -75,8 +75,11 @@ Dropout
 3. https://medium.com/geekculture/a-2021-guide-to-improving-cnns-network-architectures-historical-network-architectures-d23f32afb1bd
 4. https://github.com/toxtli/alexnet-cifar-10-keras-jupyter/blob/master/alexnet_test4.ipynb
 5. https://kratzert.github.io/2017/06/15/example-of-tensorflows-new-input-pipeline.htmlb
-6. https://colab.research.google.com/drive/1LftAExC3XGgcHkhIHQQ6aGWrlxkZv-1x?usp=sharing#scrollTo=abtguzXDbom7
-      In the end, the network’s size is limited mainly by the amount of memory available on current GPUs and by the amount of training time that we are willing to tolerate. 
+6. https://colab.research.google.com/drive/1LftAExC3XGgcHkhIHQQ6aGWrlxkZv-1x?usp=sharing#scrollTo=abtguzXDbom7  
+7. [AlexNet article](https://analyticsindiamag.com/hands-on-guide-to-implementing-alexnet-with-keras-for-multi-class-image-classification/)
+
+
+      In the end, the network’s size is limited mainly by the amount of memory available on current GPUs and by the amount of training time that we are willing to tolerate.
       Our network takes between five and six days to train on two GTX 580 3GB GPUs. 
       All of our experiments suggest that our results can be improved simply by waiting for faster GPUs and bigger datasets to become available.
 
