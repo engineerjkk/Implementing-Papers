@@ -19,8 +19,7 @@ AlexNet.ipynb
 ```
 
 ## Resources
-- **alexnet.py :** Providing AlexNet class implementation
-- **cifar10_utils.py :** Providing handy functions to download and preprocess CIFAR-10 dataset
+
 - **AlexNet.pdf :** My own summary focused on implementation detail
 - **AlexNet.ipynb :** Experimental workflow code on CIFAR-10 dataset
 - **External Checkpoint files**
