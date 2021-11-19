@@ -15,41 +15,8 @@ The original model introduced in the paper used two separate GPUs for architectu
 - From command line
   -  Will download CIFAR-10 dataset and pre-processing of it, and run the training on AlexNet. It will produce the checkpoint file for performing inference later.
 ```shell
-python alexnet.py
+AlexNet.ipynb
 ```
-
-- From source code
-  - Same behaviour as from the command line.
-```python
-import cifar10_utils
-from alexnet import AlexNet
-
-...
-valid_set = (valid_features, valid_labels)
-...
-
-alexNet = AlexNet('cifar10', learning_rate=0.0001)
-alexNet.train(epochs=20, 
-              batch_size=128, 
-              valid_set=valid_set, 
-              save_model_path='./model')
-```
-
-## Experiment on CIFAR-10 dataset
-- **Environment**
-  - [Floydhub](https://www.floydhub.com/) GPU2 instance (1 x Tesla V100)
-
-- **Approximate running time**
-  - 1 hour 45 mins
-
-- **Hyperparameters**
-  - Learning rate: 0.00005
-  - Epochs: 18
-  - Batch size: 64
-
-- **Test Accuracy: 0.6548566878980892**
-
-![Experiment Result](./experiment.png)
 
 ## Resources
 - **alexnet.py :** Providing AlexNet class implementation
@@ -98,7 +65,11 @@ alexNet.train(epochs=20,
 
 ## References
 - [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) (Original Paper)
-- [Summary Slide](http://cvml.ist.ac.at/courses/DLWT_W17/material/AlexNet.pdf)
-- [Summary Slide 2](http://vision.stanford.edu/teaching/cs231b_spring1415/slides/alexnet_tugce_kyunghee.pdf)
+- [AlexNet Summary files](https://github.com/engineerjkk/implementing-Papers/tree/main/02.AlexNet(2012)/AlexNet%20Summary)
+- [AlexNet tf-gpu==1.7 from scratch](https://github.com/engineerjkk/implementing-Papers/tree/main/02.AlexNet(2012)/AlexNet%20tf-gpu%3D%3D1.7%20from%20scratch)
+- [AlexNet tf-gpu==2.3](https://github.com/engineerjkk/implementing-Papers/tree/main/02.AlexNet(2012)/AlexNet%20tf-gpu%3D%3D2.3)
+- [CNN reference](https://github.com/engineerjkk/implementing-Papers/blob/main/02.AlexNet(2012)/High-Performance%20Neural%20Networks%20for%20Visual%20Object%20Classification.pdf)
+- [Comparison with Lenet and AlexNet.pdf](https://github.com/engineerjkk/implementing-Papers/blob/main/02.AlexNet(2012)/Comparison%20with%20Lenet%20and%20AlexNet.pdf)
+- [CNN_Architectures.pdf](https://github.com/engineerjkk/implementing-Papers/blob/main/02.AlexNet(2012)/CNN_Architectures.pdf)
 - Local Response Normalization
   - https://stats.stackexchange.com/questions/145768/importance-of-local-response-normalization-in-cnn
