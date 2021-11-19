@@ -4,7 +4,8 @@ This repository comes with AlexNet's implementation in TensorFlow. AlexNet is th
 
 The original model introduced in the paper used two separate GPUs for architecturing. That was due to the lack of GPU resources (memory) at the time. Because the limitation is no longer applicable for the current GPU technology for the AlexNet, this repository's implementation merged two separate models allocated into two separate GPUs into one.
 
-![AlexNet Architecture](./figure1.png)
+![image](https://user-images.githubusercontent.com/76835313/142556269-9016be0a-77bd-48b9-99bf-d5dbe697fc89.png)
+![image](https://user-images.githubusercontent.com/76835313/142556275-0ca8fa8f-887e-49db-b419-c79f1eda0b53.png)
 
 ## Required Packages
 - numpy
