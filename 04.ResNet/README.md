@@ -33,3 +33,4 @@
 appendix
 1. https://viso.ai/deep-learning/resnet-residual-neural-network/
 2. https://github.com/meng1994412/ResNet_from_scratch
+3. https://colab.research.google.com/github/phlippe/uvadlc_notebooks/blob/master/docs/tutorial_notebooks/tutorial5/Inception_ResNet_DenseNet.ipynb#scrollTo=H-CF1EW_y5rX
