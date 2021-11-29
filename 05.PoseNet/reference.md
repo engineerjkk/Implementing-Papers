@@ -6,3 +6,21 @@
 6. https://www.youtube.com/watch?v=ofHFOr2nRxU
 7. [센서  융합  시스템을  이용한  심층  컨벌루션  신경망  기반 6자유도  위치  재인식](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fwww.koreascience.or.kr%2Farticle%2FJAKO201916936725818.pdf&clen=2135133)
 8. https://hello-stella.tistory.com/31
+9. https://github.com/kentsommer/tensorflow-posenet
+10. https://github.com/jaeyoung0909/posenet
+11. chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fsgvr.kaist.ac.kr%2F~sungeui%2FIR_F16%2FPresentation%2Fsecond_2016%2FKentSommer.pdf&clen=1277790&chunk=true
+12. chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fdeview.kr%2Fdata%2Fdeview%2F2019%2Fpresentation%2F%5B133%5DDeview2019_Martin_Humenberger_small.pdf&clen=9820288&chunk=true
+13. https://tv.naver.com/v/11210323
+14. https://www.youtube.com/watch?v=04kwCIHOjR0
+
+- ![image](https://user-images.githubusercontent.com/76835313/143819653-34213200-d6fc-424e-86e1-f502de15d514.png)
+- ![image](https://user-images.githubusercontent.com/76835313/143819802-5f9640e3-bc92-42b1-b539-c34309aea38a.png)
+- ![image](https://user-images.githubusercontent.com/76835313/143819954-5ed95535-e4a3-4be5-8c41-ce8f1455d088.png)
+- ![image](https://user-images.githubusercontent.com/76835313/143820091-5db8e29a-1002-4cc6-8991-a283272f57ab.png)
+- ![image](https://user-images.githubusercontent.com/76835313/143820194-22b5a7ba-5911-48e5-99b9-1682e4f400ae.png)
+
+* Cambridge Landmarks - Outdoor Localization
+1. 8,000 images from 6 scenes up to 100 x 500m RGB, SfM
+
+* Seven Scenes - Indoor Localization
+1. 17,000 images across 7 small indoor scenes RGB-D, pose, dense, dense reconstruction 
