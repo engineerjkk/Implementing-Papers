@@ -13,7 +13,7 @@
 13. https://tv.naver.com/v/11210323
 14. https://www.youtube.com/watch?v=04kwCIHOjR0
 15. chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Farxiv.org%2Fftp%2Farxiv%2Fpapers%2F1907%2F1907.05272.pdf&clen=696250&chunk=true
-
+16. chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Falexgkendall.com%2Fmedia%2Fpresentations%2Flsvpr_2017_cvpr_tutorial_alex_kendall.pdf&clen=5150658&chunk=true
 - ![image](https://user-images.githubusercontent.com/76835313/143819653-34213200-d6fc-424e-86e1-f502de15d514.png)
 - ![image](https://user-images.githubusercontent.com/76835313/143819802-5f9640e3-bc92-42b1-b539-c34309aea38a.png)
 - ![image](https://user-images.githubusercontent.com/76835313/143819954-5ed95535-e4a3-4be5-8c41-ce8f1455d088.png)
