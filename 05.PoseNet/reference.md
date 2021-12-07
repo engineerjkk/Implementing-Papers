@@ -4,7 +4,7 @@
 4. https://www.youtube.com/watch?v=u0MVbL_RyPU
 5. https://www.youtube.com/watch?v=i7ierVkXYa8
 6. https://www.youtube.com/watch?v=ofHFOr2nRxU
-7. [센서  융합  시스템을  이용한  심층  컨벌루션  신경망  기반 6자유도  위치  재인식](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fwww.koreascience.or.kr%2Farticle%2FJAKO201916936725818.pdf&clen=2135133)
+7. chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fwww.koreascience.or.kr%2Farticle%2FJAKO201916936725818.pdf&clen=2135133 -> 센서  융합  시스템을  이용한  심층  컨벌루션  신경망  기반 6자유도  위치  재인식
 8. https://hello-stella.tistory.com/31
 9. https://github.com/kentsommer/tensorflow-posenet
 10. https://github.com/jaeyoung0909/posenet
