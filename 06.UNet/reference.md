@@ -15,3 +15,12 @@
 - Fully Convolutional Networks for Semantic Segmentation
 
 1. 클래스가 두개다 forground path와 back ground path, 본 논문에서는 배치사이즈를 크게해서 한 이미지에 대한 배시차이즈를 줄여 효율성을 높이고, 모멘텀을 사용해서 업데이트 할 때 이전 데이터의 영향력을 높였다.   
+## https://89douner.tistory.com/297
+- https://doubleyoo.tistory.com/m/4
+- https://mylifemystudy.tistory.com/87
+- https://medium.com/@codecompose/cumedvision1-2e45b94e7b79
+- https://velog.io/@minkyu4506/%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-U-Net-%EB%A6%AC%EB%B7%B0
+- https://kuklife.tistory.com/119
+- https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/ 발표영상
+- https://ichi.pro/ko/gyocha-enteulopi-sonsil-hamsu-267783942726718
+- https://www.hellot.net/news/article.html?no=41604 Cross entropy
