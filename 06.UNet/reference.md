@@ -1,6 +1,7 @@
 - https://medium.com/@msmapark2/u-net-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-u-net-convolutional-networks-for-biomedical-image-segmentation-456d6901b28a
 - https://medium.com/@msmapark2/fcn-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-fully-convolutional-networks-for-semantic-segmentation-81f016d76204
 - https://www.youtube.com/watch?v=sSxdQq9CCx0
+- https://juseong-tech.tistory.com/2
 - ![image](https://user-images.githubusercontent.com/76835313/146713368-c1cbc4be-1a70-4387-89d1-255bee4054be.png)
 - small k는 해당 클래스 k를 의미하며, Large K는 전체 클래스의 수를 의미한다. 
 - ak(x)는 픽셀 포지션 x에서 feature 채널 k안의 activation function을 의미한다.
