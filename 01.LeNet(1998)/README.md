@@ -4,3 +4,4 @@
 2. https://bskyvision.com/418
 3. https://stackoverflow.com/questions/53899752/how-can-i-create-a-custom-connection-between-two-different-keras-layers-in-lenet
 4. https://laonple.blog.me/220648539191
+5. https://m.blog.naver.com/laonple/221218707503
