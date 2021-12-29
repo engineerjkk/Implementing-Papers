@@ -31,3 +31,6 @@
 
 * Seven Scenes - Indoor Localization
 1. 17,000 images across 7 small indoor scenes RGB-D, pose, dense, dense reconstruction 
+
+# Implement PoseNet
+- https://github.com/crafterrr/PoseNet
