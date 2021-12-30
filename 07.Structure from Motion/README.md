@@ -6,11 +6,11 @@
 먼저 우분투의 패키지를 최신화 시켜주기 위해 sudo apt-get update를 실행시켜줍니다.
 비밀번호를 입력해주구요 
 
-sudo apt-get install copmap을 입력해 Structure from Motion을 동작시켜줄 colmap을 설치해줍니다.
+sudo apt-get install colmap을 입력해 Structure from Motion을 동작시켜줄 colmap을 설치해줍니다.
 저는 이미 설치를 했기때문에 이미 설치했다고 나오네요
 
 그 다음 sudo apt install meshlab을 설치해 줍니다. 
-Colmap이 feature같의 point를 3D상으로 표현해준다면 지금 설치하고있는 Meshlab은 색상을 입혀주는 툴입니다.
+Colmap이 feature간의 point를 3D상으로 표현해준다면 지금 설치하고있는 Meshlab은 색상을 입혀주는 툴입니다.
 
 종료후 잘 설치가 됐는지 확인 합니다. colmap이 잘 설치된것을 보실 수 있습니다. 
 실행시켜 이와같은 창이 나오면 잘 설치가 된 것입니다.
