@@ -28,9 +28,8 @@ Colmap이 feature간의 point를 3D상으로 표현해준다면 지금 설치하
 여기 reconstruction을 클릭해줍니다.그리고 automatic reconstruction을 입력합니다.
 
 여기 workspace folder부분은 3D 구성 후 파일을 저장할 폴더를 말합니다.
-select folder후 저장할 위치를 찾아줍니다.
-
-저는 홈 디렉토리는 말고 다운로드 해놓았던 이미지 파일이 있는곳 옆에다가 저장시키겠습니다. 원하시는곳에 저장하시면 됩니다. 
+select folder후 저장할 위치를 찾아줍니다. 저는 홈 디렉토리는 말고 다운로드 해놓았던 이미지 파일이 있는곳 옆에다가 저장시키겠습니다. 
+원하시는곳에 저장하시면 됩니다. 
 새로운 폴더를 만들어 이름은 output으로 해주겠습니다.  open을 클리후
 
 이제 인풋이미지를 넣어줍니다. seleect folder 클릭후 image 데이터들이 담긴 폴더를 선택합니다.
