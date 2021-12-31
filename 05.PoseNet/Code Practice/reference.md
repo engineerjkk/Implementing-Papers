@@ -15,3 +15,4 @@
 15. [포즈넷 콜랩 파이토치 구현](https://github.com/crafterrr/PoseNet)
 16. [유투브 발표](https://www.youtube.com/watch?v=Rp2Znu1ZJVA)
 17. [유투브 발표2](http://www.eng.cam.ac.uk/news/new-smartphone-based-system-teaches-machines-see)
+18. [또다른 설명자료](https://github.com/TerenceCYJ/VP-SLAM-SC-papers/blob/master/reviews/PoseNet:%20A%20Convolutional%20Network%20for%20Real-Time%206-DOF%20Camera%20Relocalization.md)
