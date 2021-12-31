@@ -10,3 +10,6 @@
 10. [카이스트 구현자료 깃헙2](https://github.com/kentsommer/keras-posenet)
 11. [포즈넷 포함 camera relocalization 구현 모음](https://handong1587.github.io/deep_learning/2015/10/09/dl-applications.html)
 12. [논문 저자 깃헙](https://github.com/alexgkendall/caffe-posenet)
+13. [포즈넷 구현 caffe](https://github.com/alexgkendall/caffe-posenet)
+14. [포즈넷 구현 caffe](https://github.com/DRAhmadFaraz/PoseNet-Caffe)
+15. [포즈넷 콜랩 파이토치 구현](https://github.com/crafterrr/PoseNet)
