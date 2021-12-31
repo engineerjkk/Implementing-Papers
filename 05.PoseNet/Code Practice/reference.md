@@ -6,7 +6,7 @@
 6. [포즈넷 구현](https://www.programcreek.com/python/?project_name=futurely%2Fdeep-camera-relocalization)
 7. [카이스트 발표자료](https://sgvr.kaist.ac.kr/~sungeui/IR_F16/Presentation/second_2016/KentSommer.pdf)
 8. [카이스트 구현자료](https://researchcode.com/code/1051590664/posenet-a-convolutional-network-for-real-time-6-dof-camera-relocalization/)
-9. [카이스트 구현자료 깃헙](https://github.com/kentsommer/tensorflow-posenet)
+9. [* 카이스트 구현자료 깃헙](https://github.com/kentsommer/tensorflow-posenet)
 10. [카이스트 구현자료 깃헙2](https://github.com/kentsommer/keras-posenet)
 11. [포즈넷 포함 camera relocalization 구현 모음](https://handong1587.github.io/deep_learning/2015/10/09/dl-applications.html)
 12. [논문 저자 깃헙](https://github.com/alexgkendall/caffe-posenet)
