@@ -13,3 +13,5 @@
 13. [포즈넷 구현 caffe](https://github.com/alexgkendall/caffe-posenet)
 14. [포즈넷 구현 caffe](https://github.com/DRAhmadFaraz/PoseNet-Caffe)
 15. [포즈넷 콜랩 파이토치 구현](https://github.com/crafterrr/PoseNet)
+16. [유투브 발표](https://www.youtube.com/watch?v=Rp2Znu1ZJVA)
+17. [유투브 발표2](http://www.eng.cam.ac.uk/news/new-smartphone-based-system-teaches-machines-see)
