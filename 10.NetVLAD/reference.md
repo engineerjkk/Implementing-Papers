@@ -1,1 +1,4 @@
 1. [NetVLAD 공식 유투브 발표](https://www.youtube.com/watch?v=P-e_0EvelIA)
+2. [한글 블로그1](https://jhyeup.tistory.com/entry/NetVLAD-CNN-architecture-for-weakly-supervised-place-recognition)
+3. [NetVLAD가 참조된 블로그1](https://github.com/chullhwan-song/Reading-Paper/issues/372)
+4. [NetVLAD가 참조된 블로그2](https://theonly1.tistory.com/category/SLAM/resources)
