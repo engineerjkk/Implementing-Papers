@@ -2,3 +2,4 @@
 2. [한글 블로그1](https://jhyeup.tistory.com/entry/NetVLAD-CNN-architecture-for-weakly-supervised-place-recognition)
 3. [NetVLAD가 참조된 블로그1](https://github.com/chullhwan-song/Reading-Paper/issues/372)
 4. [NetVLAD가 참조된 블로그2](https://theonly1.tistory.com/category/SLAM/resources)
+5. [NetVLAD Review](https://towardsdatascience.com/netvlad-cnn-architecture-for-weakly-supervised-place-recognition-ce64b08bebaf)
